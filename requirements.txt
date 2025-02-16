@@ -1,0 +1,51 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+
+requests
+python-dotenv
+
+tensorflow
+tensorflow-hub
+huggingface-hub
+
+langchain
+langchain-core
+langchain-ollama
+langchain-groq
+langchain-openai
+langchain-google-genai
+langchain-huggingface
+google-generativeai
+openai
+groq
+faiss-cpu
+transformers
+sentence-transformers
+
+ipykernel
+
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+tweepy
+pymysql
+snscrape
+
+# if your machine does not have a GPU
+torch
+
+# if your machine does have a GPU and you have CUDA installed in your system, you can install the GPU version of torch using one of the following (depending on the CUDA version you have in your system) commands
+
+# for CUDA 11.8
+#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# for CUDA 12.4
+#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+# for CUDA 12.6
+#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
