@@ -46,5 +46,5 @@ if __name__=="__main__":
 
     load_dotenv()
 
-    bearer_token = os.getenv("X_BEARER_TOKEN_CJ")
+    bearer_token = os.getenv("X_BEARER_TOKEN")
     scrape_10_tweets(bearer_token=bearer_token)
